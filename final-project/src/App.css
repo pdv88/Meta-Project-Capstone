@@ -1,38 +1,209 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&family=Markazi+Text:wght@400;500;600;700&display=swap');
+
+:root{
+  /* Primary Colors */
+  --green900: #495E57;
+  --yellow900: #F4CE14;
+  /* Secondary Colors */
+  --beige900: #EE9972;
+  --beige500: #FBDABB;
+  --white900: #EDEFEE;
+  --black900: #333333; 
+  /* widths */
+  --maxContainerWidth:900px;
+  
+}
+
+*{
+  box-sizing: border-box;
+  color: var(--black900);
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* --------------------------Header--------------------------- */
+
+header{
+  display: flex;
+  justify-content: center;
+}
+header .container{
+  display: flex;
+  justify-content: space-between;
+  max-width: var(--maxContainerWidth);
+  width: 100%;
+  padding: 1rem;
+  justify-self: center;
+}
+nav{
+  align-self: center;
+}
+header ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+header li{
+  list-style: none;
+  font-weight: bold;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header li:hover{
+  color: var(--green900);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* --------------------------Hero------------------------------ */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#hero{
+  display: flex;
+  width: 100%;
+  background-color: var(--green900);
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+#hero .container{
+  color: var(--white900);
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+  justify-content: space-between;
+  max-width: var(--maxContainerWidth);
+}
+.hero__datos{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-width: 20rem;
+}
+#hero h1{
+  font-family: 'Markazi Text', serif;
+  color: var(--yellow900);
+  font-size: 4rem;
+  line-height: 4rem;
+}
+#hero h2{
+  font-family: 'Markazi Text', serif;
+  font-size: 2.5rem;
+  color: var(--white900);
+}
+#hero img{
+  width: 20rem;
+  height: 20rem;
+  object-fit:cover;
+  border-radius: 1rem;
+  position: relative;
+  bottom: -5rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.449);
+}
+#hero p{
+  color: var(--white900);
+  font-family: 'Markazi Text', serif;
+  font-size: 1.5rem;
+  padding: .5rem 0;
+}
+#hero button{
+  background-color: var(--yellow900);
+  font-family: 'Markazi Text', serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  width: fit-content;
+  padding: .5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* -----------------------Highlights--------------------------- */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.highlights{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.highlights .container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: var(--maxContainerWidth);
+  padding: 1rem;
+}
+.title-container{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-container h1{
+  font-family: 'Markazi Text', serif;
+  font-size: 4rem;
+}
+.title-container button{
+  border: none;
+  background-color: var(--yellow900);
+  padding: .7rem 1rem;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.cards-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem 0;
+  gap: 1rem;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: var(--white900);
+  transition: all 300ms;
+  height: 400px;
+}
+.card:hover{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.248);
+  transform: translateY(-5px);
+  transition: all 300ms;
+}
+.card-data{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: .5rem;
+  height: 100%;
+  justify-content: space-between;
+}
+.card-image{
+  width: 100%;
+  height: 165px;
+  object-fit: cover;
+}
+.card-title{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.card-price{
+  color: #EE9972;
+  font-weight: bold;
+}
+.card-data p{
+  height: 100%;
+}
+.card button{
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: var(--black900);
+  color: var(--white900);
+  border: none;
+  width: fit-content;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
 }
