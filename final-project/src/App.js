@@ -1,15 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
-import Main from './components/Main';
-import Footer from './components/Footer';
+import Rutas from "./Rutas";
 
 function App() {
   return (
     <>
-    <Header/> 
-    <Main/>
-    <Footer/>
+    <Rutas/>
     </>
   );
 }

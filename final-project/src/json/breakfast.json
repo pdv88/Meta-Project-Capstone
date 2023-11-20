@@ -1,0 +1,52 @@
+[
+    {
+      "name": "Cappuccino",
+      "description": "An espresso-based coffee drink that originated in Italy and is prepared with steamed milk foam.",
+      "price": "2.50"
+    },
+    {
+      "name": "Espresso",
+      "description": "A concentrated coffee beverage brewed by forcing hot water under pressure through finely ground coffee.",
+      "price": "1.50"
+    },
+    {
+      "name": "Cornetto",
+      "description": "An Italian variation of the croissant, often filled with jam, cream, or Nutella.",
+      "price": "1.80"
+    },
+    {
+      "name": "Frittata",
+      "description": "An Italian omelette made with beaten eggs, cheese, and various ingredients such as vegetables, meat, or seafood.",
+      "price": "4.50"
+    },
+    {
+      "name": "Pandoro",
+      "description": "A traditional Italian sweet yeast bread, typically enjoyed during the Christmas season.",
+      "price": "8.00"
+    },
+    {
+      "name": "Granita",
+      "description": "A semi-frozen dessert made from sugar, water, and various flavorings.",
+      "price": "3.20"
+    },
+    {
+      "name": "Brioche",
+      "description": "A buttery, flaky pastry often enjoyed with a cappuccino or other hot beverage.",
+      "price": "2.00"
+    },
+    {
+      "name": "Tiramisu",
+      "description": "A popular Italian dessert made with ladyfingers, coffee, mascarpone cheese, and cocoa powder.",
+      "price": "6.50"
+    },
+    {
+      "name": "Prosciutto e Melone",
+      "description": "A classic Italian appetizer made with cantaloupe melon and thinly sliced prosciutto.",
+      "price": "9.00"
+    },
+    {
+      "name": "Ricotta Toast",
+      "description": "A simple and delicious Italian breakfast dish made with toasted bread and creamy ricotta cheese.",
+      "price": "3.80"
+    }
+  ]
