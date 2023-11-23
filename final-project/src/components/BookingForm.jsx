@@ -1,6 +1,21 @@
 import React, { useState, useEffect } from "react";
 
 function BookingForm() {
+  
+    const [reservations, setReservations] = useState([]);
+    
+    useEffect(() => {
+      const savedReservations = JSON.parse(localStorage.getItem('reservations'))
+      if (savedReservations) {
+        setReservations(savedReservations)
+        console.log('hola')
+      }
+    }, [])
+
+    useEffect(() => {
+      localStorage.setItem('reservations', JSON.stringify(reservations))
+    }, [reservations]);
+
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -23,12 +38,6 @@ function BookingForm() {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
   };
-
-  const [reservations, setReservations] = useState([]);
-
-  useEffect(() => {
-    localStorage.setItem("reservations", JSON.stringify(reservations));
-  }, [reservations]);
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -64,6 +73,7 @@ function BookingForm() {
         occasion: "",
       });
       setReservations((prevReservations) => [...prevReservations, form]);
+      localStorage.setItem('reservations', JSON.stringify(reservations))
     }
   }
 
@@ -112,7 +122,7 @@ function BookingForm() {
             onChange={handleChange}
             name="hour"
           >
-            <option selected hidden value="">
+            <option disabled hidden value="">
               What time?
             </option>
             <option>17:00</option>
@@ -142,7 +152,7 @@ function BookingForm() {
             name="occasion"
             onChange={handleChange}
           >
-            <option selected hidden value="">
+            <option disabled hidden value="">
               Choose here
             </option>
             <option>Birthday</option>
@@ -156,13 +166,10 @@ function BookingForm() {
           />
         </form>
         <div className="prevReservations">
-          {reservations.length === 0 ? (
-            <></>
-          ) : (
-            reservations.map((reservation, index) => {
+          {reservations.map((reservation, index) => {
               return (
                 <>
-                  <div key={index} className="reservation-card">
+                  <div id={index} className="reservation-card">
                     <h2>Reservation {parseInt(index) + 1}</h2>
                     <h3>{reservation.date}</h3>
                     <h3>{reservation.hour}</h3>
@@ -182,7 +189,7 @@ function BookingForm() {
                 </>
               );
             })
-          )}
+          }
         </div>
       </div>
     </>
