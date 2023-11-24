@@ -28,8 +28,8 @@ function Footer() {
               {/* <img src={pinterest} alt="Pinterest" className="iconSocialMedia"/> */}
             </div>
             <div>
-              <h3>Contact</h3>
-              <p>54-76-87-09</p>
+              <h3>Contact Us</h3>
+              <p>Tel: 54-76-87-09</p>
               <p>info@littlelemon.com</p>
             </div>
           </div>

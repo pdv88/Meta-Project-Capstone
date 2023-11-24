@@ -8,7 +8,6 @@ function BookingForm() {
       const savedReservations = JSON.parse(localStorage.getItem('reservations'))
       if (savedReservations) {
         setReservations(savedReservations)
-        console.log('hola')
       }
     }, [])
 

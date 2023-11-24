@@ -93,104 +93,104 @@ function Menu() {
 
   const meal = [
     {
-      src: "/breakfasts/bread_butter_jam.jpg",
-      dish: "Pane Burro e Marmellata",
+      src: "/meals/lasagne.jpg",
+      dish: "Lasagne alla Bolognese",
       description:
-        "A quintessential Italian breakfast staple, this simple yet satisfying combination of bread, butter, and jam is a popular choice for those seeking a sweet treat as part of their Italian-style breakfast.",
-      price: 2.3,
+        "Lasagna Alla Bolognese is a popular dish all over the world, featuring multiple layers of beef, tomato, and onion bolognese sauce, bechamel sauce, and lasagne pasta sheets until the cheesy top. This is a rich and warming dish that goes perfectly with a bold red wine.",
+      price: 6.50,
     },
     {
-      src: "/breakfasts/cornetto_and_milk.jpg",
-      dish: "Cornetto",
+      src: "/meals/fettuccine.jpg",
+      dish: "Fettuccine al Pomodoro",
       description:
-        "Cornetto (the Italian version of the French croissants) is a delectable type of pastry often filled with cream, jam, chocolate, or even almond paste (cornetto alle mandorle).",
-      price: 2.0,
+        "Pomodoro is another classical Italian dish that is delicious in its simplicity. Pomodoro simply means “tomato,” and it is the tomato and basil sauce that gives this dish its iconic fresh taste. It is the perfect light dish to relax with after a long day exploring.",
+      price: 5.30,
     },
     {
-      src: "/breakfasts/fette_biscottate.jpg",
-      dish: "Fette Biscottate",
+      src: "/meals/gnocchi.jpg",
+      dish: "Gnocchi di Patate",
       description:
-        "Fette biscottate are thin, crispy slices of bread that have been baked twice to achieve their unique texture. These scrumptious toasts boast a subtly sweet flavor, making them a popular choice at breakfast time.",
-      price: 2.0,
+        "Gnocchi di patate is a popular alternative to pasta, traditionally eaten at lunch in central Italy and made by grandmothers across the nation. Gnocchi can be eaten with most pasta sauces, so there are many exciting gnocchi flavours you can try.",
+      price: 4.80,
     },
     {
-      src: "/breakfasts/italian_biscotti.jpg",
-      dish: "Biscotti",
+      src: "/meals/melanzane.jpg",
+      dish: "Melanzane alla Parmigiana",
       description:
-        "As one of Italy’s most popular breakfast foods, biscotti are crunchy, sweet cookies traditionally enjoyed alongside coffee or tea. These delightful treats are designed for dipping into hot beverages, allowing the flavors to meld and create a perfect harmony of taste and texture.",
-      price: 3.5,
+        "Another traditional but famous Italian dish served on La Bella Vita cruises is Melanzane Alla Parmigiana. This dish is thick and baked, deeply warming your insides on colder evenings. It is made with thinly sliced aubergine that is then topped with cheese.",
+      price: 7.20,
     },
     {
-      src: "/breakfasts/nutella.jpg",
-      dish: "Pane e Nutella",
+      src: "/meals/pizza-margherita.jpg",
+      dish: "Pizza Margherita",
       description:
-        "This is the way to go regarding sweet food. Bread or toast is generously spread with Nutella, a widely popular chocolate hazelnut spread that has become a beloved staple in many Italian households. This delectable combination creates a rich and satisfying treat perfect for starting the day on a sweet note.",
-      price: 4.3,
+        "Perhaps even more famous than pasta is the pizza Margherita, which is the most simple pizza with just tomato sauce and buffalo mozzarella cheese. ",
+      price: 7.80,
     },
     {
-      src: "/breakfasts/cereals_milk.jpg",
-      dish: "Cereali",
+      src: "/meals/vitello-tonnato.jpg",
+      dish: "Vitello Tonnato",
       description:
-        "Italians enjoy a variety of breakfast cereals, both hot and cold, as part of a healthy breakfast. Options range from muesli and granola to classic cornflakes, providing energy and nutrition to start the day on the right foot.",
-      price: 1.8,
+        "Vitello tonnato is another veal dish, with its literal translation being “tunnied veal.” It is a dish designed for the long evenings of an elegant summer. The veal is cooked, cut into thin slices, and then chilled",
+      price: 9.50,
     },
     {
-      src: "/breakfasts/saccottino.jpg",
-      dish: "Saccottino",
+      src: "/meals/tortellini.jpg",
+      dish: "Tortellini",
       description:
-        "A small, delightful pastry filled with chocolate, cream, or fruit preserves, the saccottino is a popular choice for a sweet and satisfying Italian breakfast. Its soft, flaky exterior gives way to a delicious, rich filling, making it a morning treat that’s hard to resist.",
-      price: 3.8,
+        "Tortellini are an ancient food from Bologna and Modena. It is diffused in all the central-Italy, sometimes with different names, like for example cappelletti in Marche. It is egg pasta stuffed with meat and closed (strictly by hand) according to the unmistakable shape. They are served in broth during the Christmas period or on New Year’s Day, according to local traditions.",
+      price: 4.8,
     },
     {
-      src: "/breakfasts/cannoli.jpg",
-      dish: "Cannoli",
+      src: "/meals/meatballs.jpeg",
+      dish: "Meatballs in sauce",
       description:
-        "A Sicilian pastry known for its crispy shell filled with sweet, creamy ricotta, cannoli can also be found with savory fillings in some regions. Though traditionally enjoyed as a dessert, these indulgent pastries can sometimes make their way onto the Italian breakfast table for a special treat.",
-      price: 5.6,
+        "Meatballs in sauce are one of the most classic recipes, which can be found all over Italy. It is one of the tastiest ways to cook a minced meat. Nice balls of meat cooked long in abundant tomato sauce. A rich and healthy dish, to accompany with bread.",
+      price: 9.50,
     },
     {
-      src: "/breakfasts/maritozzi.jpg",
-      dish: "Maritozzi",
+      src: "/meals/risotto.jpg",
+      dish: "Risotto",
       description:
-        "Maritozzi are sweet buns often filled with whipped cream or custard. These delicious pastries are particularly popular in Rome and are a favorite morning treat for many Italians. The soft, fluffy texture of the bun combined with the sweet filling makes Maritozzi a delightful addition to any Italian breakfast spread.",
-      price: 4.6,
+        "Risotto, like pasta, can be prepared with thousands of ingredients. The best known is definitely the one called alla milanese that is with saffron, precious spice with unmistakable flavor and color. In any case the rice should never be boiled, but toasted, nuanted with wine and slowly cooked with the constant addition of broth.",
+      price: 6.20,
     },
     {
-      src: "/breakfasts/cantuccini.jpg",
-      dish: "Cantucci",
+      src: "/meals/amatriciana.jpg",
+      dish: "Amatriciana",
       description:
-        "Crunchy almond cookies, cantucci are typically served with sweet dessert wine. Though traditionally enjoyed as a dessert, these delectable cookies can also appear during breakfast, providing a tasty, nutty treat to pair with coffee or tea.",
-      price: 3.5,
+        "Amatriciana pasta, derived from the city of Amatrice, is a pride of Roman gastronomy and Lazio in general. Unfortunately, it suffers many bad imitations, but tradition would require the use of jowl, pecorino cheese and tomato. The most suitable pasta format? The bucatini!",
+      price: 8.50,
     },
   ];
 
   const dinner = [
     {
-      src: "/breakfasts/bread_butter_jam.jpg",
-      dish: "Pane Burro e Marmellata",
+      src: "/dinners/florentine_steak.jpg",
+      dish: "Florentine steak",
       description:
-        "A quintessential Italian breakfast staple, this simple yet satisfying combination of bread, butter, and jam is a popular choice for those seeking a sweet treat as part of their Italian-style breakfast.",
-      price: 2.3,
+        "As the word itself says, Florentine comes from Florence. In this case there is no doubt: a scottona steak with bone, between 1kg and 1.5 kg, at least 5 cm thick. The cooking is essential: it must be grilled for 5 minutes on each side, without ever exceeding the 149 ºF. It must be served strictly rare!",
+      price: 18.50,
     },
     {
-      src: "/breakfasts/cornetto_and_milk.jpg",
-      dish: "Cornetto",
+      src: "/dinners/carbonara.jpg",
+      dish: "Carbonara",
       description:
-        "Cornetto (the Italian version of the French croissants) is a delectable type of pastry often filled with cream, jam, chocolate, or even almond paste (cornetto alle mandorle).",
-      price: 2.0,
+        "Crispy jowl and not bacon! And the creamy part of the dressing is obtained with raw egg, pecorino cheese and some cooking water. Do not forget the pepper and let’s go over in chorus: no cooking cream! No cooking cream! No cooking cream!",
+      price: 7.0,
     },
     {
-      src: "/breakfasts/fette_biscottate.jpg",
-      dish: "Fette Biscottate",
+      src: "/dinners/arancini.jpg",
+      dish: "Arancini",
       description:
-        "Fette biscottate are thin, crispy slices of bread that have been baked twice to achieve their unique texture. These scrumptious toasts boast a subtly sweet flavor, making them a popular choice at breakfast time.",
-      price: 2.0,
+        "Arancini are fried rice balls. There are two main types: Roman and Sicilian. Both are filled with ragu or tomato sauce, mozzarella cheese, and Arborio rice, used to make risotto. The difference is that the Sicillian arancino recipes typically add beef and peas.",
+      price: 8.30,
     },
     {
-      src: "/breakfasts/italian_biscotti.jpg",
-      dish: "Biscotti",
+      src: "/dinners/focaccia.jpg",
+      dish: "Focaccia",
       description:
-        "As one of Italy’s most popular breakfast foods, biscotti are crunchy, sweet cookies traditionally enjoyed alongside coffee or tea. These delightful treats are designed for dipping into hot beverages, allowing the flavors to meld and create a perfect harmony of taste and texture.",
+        "Italian dough is so good that it needed a special bread to homage it. Focaccia is an oven-baked Italian bread in between flatbread and pizza. Depending on the region, it may look different, it may have different ingredients and toppings, and even a different name. In the Tuscan area it is known as schiacciata, in Basilicata, strazzata, and crescia in Umbria. It is typically a bread with herb toppings and olive oil. Perfect for a starter or just as an afternoon snack.",
       price: 3.5,
     },
     {
