@@ -59,7 +59,7 @@ function Main() {
               ></img>
               <div className="card-data">
               <div className="card-title">
-                <h3>Greek Salad</h3>
+                <h3>Bruchetta</h3>
                 <p className="card-price">$5.99</p>
               </div>
               <p>
@@ -76,7 +76,7 @@ function Main() {
               ></img>
               <div className="card-data">
               <div className="card-title">
-                <h3>Greek Salad</h3>
+                <h3>Lemon Dessert</h3>
                 <p className="card-price">$5.00</p>
               </div>
               <p>

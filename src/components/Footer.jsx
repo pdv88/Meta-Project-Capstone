@@ -1,8 +1,9 @@
 import React from "react";
-// import facebook from '../assets/icons_assets/facebook.svg'
+import facebook from '../assets/icons_assets/facebook.svg'
 import foursquare from "../assets/icons_assets/foursquare.svg";
 import twitter from "../assets/icons_assets/x.svg";
-// import pinterest from '../assets/icons_assets/pinterest.svg'
+import pinterest from '../assets/icons_assets/pinterest.svg'
+import instagram from '../assets/icons_assets/instagram.svg'
 
 function Footer() {
   return (
@@ -18,14 +19,16 @@ function Footer() {
               </div>
             <div>
               <h3>Socials</h3>
-              {/* <img src={facebook} alt="Instagram" className="iconSocialMedia"/> */}
+              <img src={facebook} alt="facebook" className="icons"/>
+              <img src={instagram} alt="instagram" className="icons"/>
+
               <img
                 src={foursquare}
                 alt="Facebook"
-                className="iconSocialMedia"
+                className="icons"
               />
-              <img src={twitter} alt="Twitter" className="iconSocialMedia" />
-              {/* <img src={pinterest} alt="Pinterest" className="iconSocialMedia"/> */}
+              <img src={twitter} alt="Twitter" className="icons" />
+              <img src={pinterest} alt="Pinterest" className="icons"/>
             </div>
             <div>
               <h3>Contact Us</h3>
@@ -33,7 +36,7 @@ function Footer() {
               <p>info@littlelemon.com</p>
             </div>
           </div>
-        <p>&copy; All rights reserved Little Lemon 2023</p>
+        <p><strong>&copy; All rights reserved Little Lemon 2023</strong></p>
         </div>
       </footer>
     </>

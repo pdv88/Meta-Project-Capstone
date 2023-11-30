@@ -168,7 +168,7 @@ function BookingForm() {
           {reservations.map((reservation, index) => {
               return (
                 <>
-                  <div id={index} className="reservation-card">
+                  <div key={index} className="reservation-card">
                     <h2>Reservation {parseInt(index) + 1}</h2>
                     <h3>{reservation.date}</h3>
                     <h3>{reservation.hour}</h3>

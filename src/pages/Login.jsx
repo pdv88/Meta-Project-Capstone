@@ -17,7 +17,7 @@ function Login() {
         "user",
         JSON.stringify({ nombre: user, password: pass })
       );
-      window.location.href = "/reservations";
+      window.location.href = "/";
     } else {
       alert("user or password are incorrect");
     }

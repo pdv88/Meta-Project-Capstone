@@ -194,43 +194,43 @@ function Menu() {
       price: 3.5,
     },
     {
-      src: "/breakfasts/nutella.jpg",
-      dish: "Pane e Nutella",
+      src: "/dinners/italian_cheese.jpg",
+      dish: "Italian Cheese",
       description:
-        "This is the way to go regarding sweet food. Bread or toast is generously spread with Nutella, a widely popular chocolate hazelnut spread that has become a beloved staple in many Italian households. This delectable combination creates a rich and satisfying treat perfect for starting the day on a sweet note.",
-      price: 4.3,
+        "Strong, soft, creamy, grained, sweet, or salty, how can anyone say no to a good piece of cheese? As is common with every Italian food, each region has mastered a specific type of cheese, but all are equally good.",
+      price: 11.00,
     },
     {
-      src: "/breakfasts/cereals_milk.jpg",
-      dish: "Cereali",
+      src: "/dinners/ossobuco.jpg",
+      dish: "Ossobuco",
       description:
-        "Italians enjoy a variety of breakfast cereals, both hot and cold, as part of a healthy breakfast. Options range from muesli and granola to classic cornflakes, providing energy and nutrition to start the day on the right foot.",
-      price: 1.8,
+        "Ossobuco is a dish from Milan and is the best example of elaborate Italian cuisine. It is slowly cooked and may take up to three hours to be ready, but that results in a meat so delicious and tender that it’s going to be worth the wait.",
+      price: 18.30,
     },
     {
-      src: "/breakfasts/saccottino.jpg",
-      dish: "Saccottino",
+      src: "/dinners/truffles.jpg",
+      dish: "Truffles",
       description:
-        "A small, delightful pastry filled with chocolate, cream, or fruit preserves, the saccottino is a popular choice for a sweet and satisfying Italian breakfast. Its soft, flaky exterior gives way to a delicious, rich filling, making it a morning treat that’s hard to resist.",
-      price: 3.8,
+        "One of the best gifts Italy has given the world, even though it is possible to find truffles in a few other places, no other country produces them with such quality and volume. Truffles are a highly aromatic fungus that are found near the tree roots in the forests of Piedmont and Umbria between the months of November and March.",
+      price: 14.50,
     },
     {
-      src: "/breakfasts/cannoli.jpg",
-      dish: "Cannoli",
+      src: "/dinners/ravioli.jpg",
+      dish: "Ravioli",
       description:
-        "A Sicilian pastry known for its crispy shell filled with sweet, creamy ricotta, cannoli can also be found with savory fillings in some regions. Though traditionally enjoyed as a dessert, these indulgent pastries can sometimes make their way onto the Italian breakfast table for a special treat.",
-      price: 5.6,
+        "Ravioli are usually served boiled with a sauce as a first course, or boiled and served in broth as a traditional winter dish. Ravioli fillings include diverse varieties of meat, cheese, and vegetables, and they vary from region to region. There are also sweet ravioli, which are usually deep-fried.",
+      price: 6.60,
     },
     {
-      src: "/breakfasts/maritozzi.jpg",
-      dish: "Maritozzi",
+      src: "/dinners/puglia_tiella.jpg",
+      dish: "Puglia Tiella",
       description:
-        "Maritozzi are sweet buns often filled with whipped cream or custard. These delicious pastries are particularly popular in Rome and are a favorite morning treat for many Italians. The soft, fluffy texture of the bun combined with the sweet filling makes Maritozzi a delightful addition to any Italian breakfast spread.",
+        "Traditionally, the mussels are opened with a knife when still raw and used in this dish. Here, they are just-cooked and their cooking liquid is used to flavour the whole dish.",
       price: 4.6,
     },
     {
-      src: "/breakfasts/cantuccini.jpg",
-      dish: "Cantucci",
+      src: "/dinners/baked_ziti.jpg",
+      dish: "Baked Ziti ",
       description:
         "Crunchy almond cookies, cantucci are typically served with sweet dessert wine. Though traditionally enjoyed as a dessert, these delectable cookies can also appear during breakfast, providing a tasty, nutty treat to pair with coffee or tea.",
       price: 3.5,

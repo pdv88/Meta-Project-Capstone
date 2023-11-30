@@ -5,7 +5,11 @@ function Order() {
 
     return(
         <>
-        <h1>Order Online</h1>
+        <section id="order">
+            <div className="container">
+                <h1>Cart</h1>
+            </div>
+        </section>
         </>
     )
 }
